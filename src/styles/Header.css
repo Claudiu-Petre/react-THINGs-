@@ -1,0 +1,38 @@
+
+.nav {
+    display:flex ;
+    align-items: center;
+    background-color:rgb(36, 35, 35);
+    padding: 30px 25px;
+
+
+}
+h2{
+    font-size: 60px;
+    margin:auto;
+    font-weight: 950;
+    margin-left: 60px;
+    color: rgb(76, 169, 216);
+}
+
+h3{
+    font-size: 40px;
+    margin-left: 60px;
+    margin-right: 20px;
+    font-style: italic;
+    color: rgb(129, 178, 219);
+}
+.pic {
+    width: 170px;
+    image-resolution:initial;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+.nav-items > li {
+    padding: 20px;
+}
